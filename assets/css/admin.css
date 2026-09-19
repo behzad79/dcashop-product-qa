@@ -1,0 +1,48 @@
+.dcqa-status{
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:700;
+    line-height:1.5;
+}
+
+.dcqa-status.approved{
+    background:#e7f7ed;
+    color:#1f7a3d;
+}
+
+.dcqa-status.pending{
+    background:#fff8e1;
+    color:#b7791f;
+}
+
+.dcqa-status.rejected{
+    background:#fdeaea;
+    color:#c53030;
+}
+
+.dcqa-admin-table td{
+    vertical-align:middle;
+}
+
+.dcqa-admin-table td:nth-child(4){
+    min-width:350px;
+    line-height:1.9;
+}
+
+.dcqa-admin-table .button{
+    margin-left:6px;
+}
+
+.dcqa-admin-table .button-link-delete{
+    color:#d63638;
+}
+
+.dcqa-admin-table .button-link-delete:hover{
+    color:#b32d2e;
+}
+
+.dcqa-admin-table tbody tr:hover{
+    background:#f8f9fa;
+}
