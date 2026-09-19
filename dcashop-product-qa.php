@@ -7,9 +7,13 @@ Description: A custom product questions and answers plugin for WordPress and Woo
 Version: 1.0.0
 Author: Seyyed Behzad Mousaviyan
 Author URI: https://github.com/behzad79
+Text Domain: dcashop-product-qa
+Domain Path: /languages
 */
 
-if (!defined('ABSPATH')) exit;
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 
 define('DCQA_PATH', plugin_dir_path(__FILE__));
 define('DCQA_URL', plugin_dir_url(__FILE__));
@@ -42,12 +46,6 @@ function dcqa_clear_product_cache( $product_id ) {
     if ( ! $product_id ) {
         return;
     }
-
-    // پاک کردن کش WP Rocket برای همین محصول
-    if ( function_exists( 'rocket_clean_post' ) ) {
-        rocket_clean_post( $product_id );
-    }
-
 }
 
 add_action( 'admin_enqueue_scripts', 'dcqa_admin_assets' );
