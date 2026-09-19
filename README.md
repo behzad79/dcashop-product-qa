@@ -32,6 +32,7 @@ DCQA provides a dedicated Q&A system for WooCommerce products, allowing customer
 
 ## 📁 Project Structure
 
+```text
 dcashop-product-qa/
 ├── assets/
 │   ├── css/
@@ -61,6 +62,7 @@ dcashop-product-qa/
 │   └── questions.php
 │
 └── dcashop-product-qa.php
+```
 
 ## 📸 Screenshots
 
