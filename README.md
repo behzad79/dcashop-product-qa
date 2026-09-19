@@ -62,6 +62,31 @@ dcashop-product-qa/
 │
 └── dcashop-product-qa.php
 
+## 📸 Screenshots
+
+### Product Page - No Questions
+
+![Product without questions](screenshots/product-no-questions.png)
+
+
+### Admin - Question & Answer Management
+
+![Admin question management](screenshots/admin-question-list.png)
+
+
+### Admin - Edit Answer
+
+![Edit answer](screenshots/admin-edit-answer.png)
+
+
+### Admin - Add Answer
+
+![Add answer](screenshots/admin-add-answer.png)
+
+
+### Product Page - Questions & Answers
+
+![Product with questions](screenshots/product-with-questions.png)
 
 ## 🎯 Purpose
 
