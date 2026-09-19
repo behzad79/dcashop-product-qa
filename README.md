@@ -55,7 +55,6 @@ dcashop-product-qa/
 │   └── helpers.php
 │
 ├── templates/
-│   ├── answer-item.php
 │   ├── popup-answer.php
 │   ├── popup-question.php
 │   ├── question-item.php
